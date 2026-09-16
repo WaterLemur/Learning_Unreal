@@ -4,8 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "MyGameModeBase.generated.h"
 
+#include "BaseUserWidget.h"
+
+#include "MyGameModeBase.generated.h"
 /**
  * 
  */
@@ -13,7 +15,14 @@ UCLASS()
 class LEARNINGUNREAL_API AMyGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+
 protected:
+	FString Message { TEXT("Hello Math") };
+	
+	UPROPERTY(EditAnywhere, Category = "Variables")
+	TSubclassOf<UBaseUserWidget> UI;
+
 	virtual void BeginPlay() override;
+
+	bool ShowUI();
 };

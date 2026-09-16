@@ -6,5 +6,21 @@
 			"@/mnt/linux/projects/learning-unreal/repo/Learning_Unreal/src/LearningUnreal/.vscode/compileCommands_LearningUnreal/LearningUnreal.0.rsp"
 		],
 		"directory": "/mnt/linux/software/unreal-engine/5.8/Linux_Unreal_Engine_5.8.0/Engine/Source"
+	},
+	{
+		"file": "/mnt/linux/projects/learning-unreal/repo/Learning_Unreal/src/LearningUnreal/Source/LearningUnreal/Private/BaseUserWidget.cpp",
+		"arguments": [
+			"/mnt/linux/software/unreal-engine/5.8/Linux_Unreal_Engine_5.8.0/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/linux/projects/learning-unreal/repo/Learning_Unreal/src/LearningUnreal/.vscode/compileCommands_LearningUnreal/LearningUnreal.0.rsp"
+		],
+		"directory": "/mnt/linux/software/unreal-engine/5.8/Linux_Unreal_Engine_5.8.0/Engine/Source"
+	},
+	{
+		"file": "/mnt/linux/projects/learning-unreal/repo/Learning_Unreal/src/LearningUnreal/Source/LearningUnreal/Private/MyGameModeBase.cpp",
+		"arguments": [
+			"/mnt/linux/software/unreal-engine/5.8/Linux_Unreal_Engine_5.8.0/Engine/Extras/ThirdPartyNotUE/SDKs/HostLinux/Linux_x64/v26_clang-20.1.8-rockylinux8/x86_64-unknown-linux-gnu/bin/clang++",
+			"@/mnt/linux/projects/learning-unreal/repo/Learning_Unreal/src/LearningUnreal/.vscode/compileCommands_LearningUnreal/LearningUnreal.0.rsp"
+		],
+		"directory": "/mnt/linux/software/unreal-engine/5.8/Linux_Unreal_Engine_5.8.0/Engine/Source"
 	}
 ]
