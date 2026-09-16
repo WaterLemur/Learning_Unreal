@@ -1,0 +1,8 @@
+Y:\Software\UE\UE_5.8\Engine\Binaries\Win64>"Y:\Software\UE\UE_5.8\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.exe" -projectfiles -project="YOUR_PROJECT_PATH_HERE\YourProjectName.uproject" -game -engine
+Unhandled exception: Exception: Unable to find project file based on argument YOUR_PROJECT_PATH_HERE\YourProjectName.uproject
+   at UnrealBuildTool.Utils.TryParseProjectFileArgument(CommandLineArguments Arguments, ILogger Logger, FileReference& ProjectFile, Boolean MarkArgumentAsUsed)
+   at UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray)
+
+Result: Failed (OtherCompilationError)
+Total execution time: 0.40 seconds
+Trace written to file C:\Users\Water Lemur\AppData\Local\UnrealBuildTool\Trace.uba with size 241b
