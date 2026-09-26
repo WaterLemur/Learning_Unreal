@@ -22,7 +22,11 @@
 # Compiled Static libraries
 *.lai
 *.la
+# --------------------------------------------------
+# Wwise dual-boot mega-combo
 *.a
+!/Plugins/WwiseSoundEngine/ThirdParty/Linux_x64/**/*
+# --------------------------------------------------
 *.lib
 
 # Executables
