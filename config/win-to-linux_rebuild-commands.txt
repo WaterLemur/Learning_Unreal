@@ -1,0 +1,21 @@
+1. Run these two commands.
+
+/mnt/linux/software/unreal-engine/5.8/Linux_Unreal_Engine_5.8.0/Engine/Build/BatchFiles/Linux/GenerateProjectFiles.sh -project="/mnt/linux/projects/learning-unreal/repo/Learning_Unreal/src/LearningUnreal/LearningUnreal.uproject" -game -engine
+
+
+/mnt/linux/software/unreal-engine/5.8/Linux_Unreal_Engine_5.8.0/Engine/Build/BatchFiles/Linux/Build.sh LearningUnrealEditor Linux Development "/mnt/linux/projects/learning-unreal/repo/Learning_Unreal/src/LearningUnreal/LearningUnreal.uproject"
+
+
+2. (Wwise) Edit Wwise source code to comply with Clang standard.
+
+// Type trait that says BSNumber is a signed type.
+    template <typename UInteger>
+  ❌struct is_signed<WwiseGTE::BSNumber<UInteger>> {};
+
+// Type trait that says BSNumber is a signed type.
+    template <typename UInteger>
+  ✅struct wwise_is_signed_bsnumber {};
+
+
+
+

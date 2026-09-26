@@ -146,6 +146,7 @@ public class AkAudio : ModuleRules
 		PrivateIncludePaths.Add("AkAudio/Private");
 		PrivateIncludePaths.Add("AkAudio/Classes/GTE");
 
+
 		#if UE_5_3_OR_LATER
 			bLegacyParentIncludePaths = false;
 			CppStandard = CppStandardVersion.Default;

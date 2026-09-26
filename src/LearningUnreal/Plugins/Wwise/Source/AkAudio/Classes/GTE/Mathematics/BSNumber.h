@@ -1258,7 +1258,7 @@ namespace std
 
     // Type trait that says BSNumber is a signed type.
     template <typename UInteger>
-    struct is_signed<WwiseGTE::BSNumber<UInteger>> : true_type {};
+    struct wwise_is_signed_bsnumber {};
 }
 
 namespace WwiseGTE

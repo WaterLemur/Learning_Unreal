@@ -932,7 +932,7 @@ namespace std
 
     // Type trait that says BSRational is a signed type.
     template <typename UInteger>
-    struct is_signed<WwiseGTE::BSRational<UInteger>> : true_type {};
+    struct wwise_is_signed_bsrational {};
 }
 
 namespace WwiseGTE
